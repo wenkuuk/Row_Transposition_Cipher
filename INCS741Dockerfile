@@ -1,0 +1,5 @@
+From python:3
+
+ADD INCS741_2nd_Assignment.py .
+
+CMD ["python", "./INCS741_2nd_Assignment.py"]
