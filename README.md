@@ -237,7 +237,7 @@ def main():
 main()
 ```
 
-## Use of Docker
+# Docker
 
 This part shall be a verification of how the python file and docker file, showing that python runs in docker with output. 
 The docker uses certain commands:
