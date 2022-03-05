@@ -1,7 +1,7 @@
 # Row Transposition Cipher Implementation
 
 A program written in python programming language to encrypt and decrypt data using two methods dictionaries and matrix.
-
+Cancel changes
 ## Getting Started
 
 These type of transposition cipher implementation project has no dependency. 
@@ -237,7 +237,7 @@ def main():
 main()
 ```
 
-# Docker
+# Run on Docker
 
 This part shall be a verification of how the python file and docker file, showing that python runs in docker with output. 
 The docker uses certain commands:
