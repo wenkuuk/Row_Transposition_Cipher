@@ -1,10 +1,15 @@
 # Row Transposition Cipher Implementation
 
-A program written in python programming language to encrypt and decrypt data using two methods dictionaries and matrix.
-Cancel changes
-## Getting Started
+Encryption is defined as a process of expressing data in the form of a code (encoding). This can
+also be mentioned as converting Plaintext to Ciphertext.
+Decryption is the process of decoding the encoded data. Converting the ciphertext into plain text.
+This process requires a key that we used for encryption. We require a key for encryption. There
+are two main types of keys used for encryption and decryption. As part of this project, we are
+instructed to perform Encryption and Decryption on a Ciphertext in row transposition.
 
-These type of transposition cipher implementation project has no dependency. 
+We chose the python programming language and implemented the tasks using two methods:
+1. Encryption and Decryption data type using dictionaries and arrays.
+2. Encryption and Decryption data type using matrix and arrays.
 
 # Encryption 
 
@@ -235,11 +240,12 @@ def main():
     else:
         print("Exit the menu")
 main()
-```
 
-# Run on Docker
 
 This part shall be a verification of how the python file and docker file, showing that python runs in docker with output. 
 The docker uses certain commands:
 * “docker build. -f  INCS741Dockerfile(DOCKER FILE) –t 741assignemnt(FILENAME)”
+
 * “ docker run –it 741assignment.”
+Explanation: The reason using “.” and “ -f ” in the command means that. “ ” will build the docker
+image to the working directory, “ -f ” will follow the specific name of docker file content as well.
