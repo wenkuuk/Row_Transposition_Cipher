@@ -176,7 +176,7 @@ matrix = [[0] * len(w) for i in range(matrix_rows)]
 
     print("\nEncrypted Message is C = ",text_to_encrypt)
 ``` 
-Decryption (main function)
+# Decryption (main function)
 ```
 def Main_Decrypted_matrix_arrays():
     M = input("\nEnter the Encrypted Message C = ").lower()
@@ -240,8 +240,9 @@ def main():
     else:
         print("Exit the menu")
 main()
-
-
+```
+# Docker Container Setup
+```
 This part shall be a verification of how the python file and docker file, showing that python runs in docker with output. 
 The docker uses certain commands:
 * “docker build. -f  INCS741Dockerfile(DOCKER FILE) –t 741assignemnt(FILENAME)”
